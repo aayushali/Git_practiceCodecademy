@@ -1,0 +1,15 @@
+Generalizations 
+
+> git checkout HEAD filename
+Discards changes in the working Directory.
+
+> git reset HEAD filename
+Unstages file changes in the staging area.
+
+>git reset commit_SHA
+Resets to a previous commit in your commit history.
+
+Adding multiple files to the staging area with a single  command.
+git add filename_1 filename_2
+
+ 
