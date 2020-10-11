@@ -11,7 +11,7 @@ Resets to a previous commit in your commit history.
 
 Adding multiple files to the staging area with a single  command.
 git add filename_1 filename_2
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 Git branching allows users to experiment with different verons of a
 project by checking out separate branches to work on.
@@ -29,4 +29,33 @@ The following commands are useful in the Git branch workflow.
                          branch to another.
 
 > git branch -d branch_name: Deletes the branch specified.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# A remote is a Git repository that lives outside your Git project folder.
+  Remotes can live on the web, on a shared network or even in a separate 
+  folder on your local computer.
+
+# The Git Collaborative Workflow are steps that enable smooth project deve-
+  lopment when multiple collaborations are working on the same Git project.
+
+We also learned the following commands
+
+> git clone: Creates a local copy of a remote.
+
+> git remote -v : Lists a Git project's remotes.
+
+> git fetch: Fetches work from the remote into the local copy.
+
+> git merge origin/master: Merges origin/master into your local Branch.
+
+> git push origin <branch_name>: Pushes a local branch to the origin remote.
+
+Git projects are usually managed on Github, a website that hosts Git projects for 
+millions of users. With Github you can access your projects from anywhere in the 
+world by using the basic workflow you learned here.
+
+
+
  
